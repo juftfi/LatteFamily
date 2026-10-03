@@ -18,7 +18,8 @@ import {
   Zap,
   Flame,
   Coffee,
-  Sparkles
+  Sparkles,
+  Send
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -247,8 +248,46 @@ export const Navbar: React.FC<NavbarProps> = ({
           </nav>
         </div>
 
-        {/* Right side controls: Network Switcher & Wallet */}
-        <div className="flex items-center gap-2.5">
+        {/* Right side controls: Social Links, Network Switcher & Wallet */}
+        <div className="flex items-center gap-2">
+          {/* Social Links: X & Telegram */}
+          <div className="flex items-center gap-1.5 mr-0.5">
+            <a
+              href="https://x.com/Lattedotfamily"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-slate-900/90 border border-slate-800 hover:border-amber-500/60 hover:bg-slate-800/90 text-slate-300 hover:text-white transition-all flex items-center justify-center cursor-pointer group shadow-sm"
+              title="Latte Family on X: @Lattedotfamily"
+            >
+              <svg className="w-3.5 h-3.5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+
+            <a
+              href="https://t.me/Lattedotfamily"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-slate-900/90 border border-slate-800 hover:border-cyan-500/60 hover:bg-slate-800/90 text-slate-300 hover:text-cyan-400 transition-all flex items-center justify-center cursor-pointer group shadow-sm"
+              title="Latte Family on Telegram: @Lattedotfamily"
+            >
+              <Send className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
+            </a>
+          </div>
+
+          {/* Buy $Latte Button */}
+          <a
+            href="https://flap.sh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/50 hover:border-amber-400 text-amber-300 hover:text-white font-mono font-bold text-xs shadow-sm hover:shadow-amber-500/20 transition-all cursor-pointer group"
+            title="Buy $Latte on Flap.sh"
+          >
+            <Coffee className="w-3.5 h-3.5 text-amber-400 group-hover:scale-110 transition-transform" />
+            <span>Buy $Latte</span>
+            <ExternalLink className="w-3 h-3 text-amber-400/80 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+          </a>
+
           {/* Network Switcher Dropdown */}
           <div className="relative" ref={networkMenuRef}>
             <button
