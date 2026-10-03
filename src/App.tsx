@@ -110,7 +110,7 @@ function MainApp() {
               </a>
 
               <a
-                href="https://t.me/"
+                href="https://t.me/lattefamilychannel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-500/50 hover:text-cyan-400 transition-all text-xs"

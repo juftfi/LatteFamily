@@ -105,7 +105,7 @@ export const ExploreTokens: React.FC<ExploreTokensProps> = ({
             </a>
 
             <a
-              href="https://t.me/"
+              href="https://t.me/lattefamilychannel"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/50 text-slate-200 text-xs sm:text-sm font-semibold transition-all cursor-pointer shadow-md group"
@@ -117,7 +117,7 @@ export const ExploreTokens: React.FC<ExploreTokensProps> = ({
             </a>
 
             <a
-              href="https://flap.sh/bnb/0x3c73b6f7bc952de8187262dcaf2e581eb5d97777"
+              href="https://flap.sh"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/60 hover:border-amber-400 text-amber-300 hover:text-white text-xs sm:text-sm font-bold font-mono transition-all cursor-pointer shadow-md shadow-amber-500/10 group"
