@@ -2,42 +2,6 @@ import { TokenMetadata, TradeTransaction } from '../types';
 
 export const INITIAL_TOKENS: TokenMetadata[] = [
   {
-    id: 'latte-family-flagship',
-    name: 'Latte Family',
-    symbol: 'LATTE',
-    description: 'The native governance and utility fuel token for the Latte Family launchpad ecosystem, powering fair bonding curves and community startup accelerators on BNB Chain.',
-    logoUrl: '/favicon.svg',
-    website: 'https://flap.sh',
-    twitter: 'https://x.com/Lattedotfamily',
-    telegram: 'https://t.me/Lattedotfamily',
-    chainId: 56,
-    tokenType: 'standard',
-    contractAddress: '0xbfca1fea64764920e49b4454187670b3cfd77777',
-    creatorAddress: '0x9999b14A893Dfe9F8e5D79E1087858E586c09999',
-    txHash: '0x3bfca1fea64764920e49b4454187670b3cfd777779a84a36be5b508f7ceca0d49',
-    blockNumber: 42109840,
-    createdAt: Date.now() - 3600 * 1000 * 12,
-    totalSupply: 1_000_000_000,
-    circulatingSupply: 850_000_000,
-    currentPrice: 0.00000012, // BNB
-    currentPriceUSD: 0.000072,
-    priceChange24h: 88.5,
-    marketCapUSD: 72000,
-    reserveBalance: 24.8, // BNB raised
-    bondingTargetUSD: 69000,
-    bondingProgress: 94.2,
-    holdersCount: 1420,
-    volume24hUSD: 48600,
-    isGraduated: false,
-    priceHistory: [
-      { timestamp: Date.now() - 86400000, price: 0.000038, volume: 8200 },
-      { timestamp: Date.now() - 64800000, price: 0.000045, volume: 11500 },
-      { timestamp: Date.now() - 43200000, price: 0.000054, volume: 15200 },
-      { timestamp: Date.now() - 21600000, price: 0.000062, volume: 18400 },
-      { timestamp: Date.now(), price: 0.000072, volume: 22800 },
-    ],
-  },
-  {
     id: 'flap-ai-startup',
     name: 'Flap AI Agents',
     symbol: 'FLAPAI',
