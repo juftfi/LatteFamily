@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { TokenMetadata, SupportedChainId } from '../types';
 import { SUPPORTED_CHAINS } from '../data/chains';
+import { LatteLogo } from './LatteLogo';
 import { 
   Search, 
   Flame, 
@@ -69,7 +70,7 @@ export const ExploreTokens: React.FC<ExploreTokensProps> = ({
 
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Coffee className="w-3.5 h-3.5" />
+            <LatteLogo size={18} />
             <span>Latte Family Launchpad Protocol</span>
           </div>
 

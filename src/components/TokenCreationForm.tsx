@@ -28,6 +28,7 @@ interface TokenCreationFormProps {
 }
 
 const SAMPLE_LOGOS = [
+  { name: 'Latte Official', url: '/favicon.svg' },
   { name: 'AI Core', url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80' },
   { name: 'Quantum', url: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=200&auto=format&fit=crop&q=80' },
   { name: 'Cyber Mesh', url: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=200&auto=format&fit=crop&q=80' },

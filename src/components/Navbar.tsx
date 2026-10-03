@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useWallet } from '../context/WalletContext';
 import { SUPPORTED_CHAINS } from '../data/chains';
 import { SupportedChainId, ProtocolType } from '../types';
+import { LatteLogo } from './LatteLogo';
 import { 
   Rocket, 
   Layers, 
@@ -116,11 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setActiveTab('explore')}
             className="flex items-center gap-3 cursor-pointer group select-none"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 via-orange-400 to-amber-300 p-[1.5px] shadow-lg shadow-amber-500/20 group-hover:shadow-amber-500/40 transition-all">
-              <div className="w-full h-full bg-[#0b101b] rounded-[10px] flex items-center justify-center">
-                <Coffee className="w-5 h-5 text-amber-400 group-hover:scale-110 transition-transform" />
-              </div>
-            </div>
+            <LatteLogo size={42} className="group-hover:scale-105 transition-transform" />
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-amber-100 to-amber-300 bg-clip-text text-transparent">

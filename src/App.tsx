@@ -5,6 +5,7 @@ import { ExploreTokens } from './components/ExploreTokens';
 import { TokenCreationForm } from './components/TokenCreationForm';
 import { AnalyticsDashboard } from './components/AnalyticsDashboard';
 import { FlapContractsRegistry } from './components/FlapContractsRegistry';
+import { LatteLogo } from './components/LatteLogo';
 import { TokenMetadata, ProtocolType } from './types';
 import { INITIAL_TOKENS } from './data/mockTokens';
 
@@ -87,9 +88,9 @@ function MainApp() {
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-[#06080e] py-8 text-xs text-slate-500 font-mono">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber-400"></span>
-            <span className="text-slate-300 font-semibold">Latte Family Protocol</span>
+          <div className="flex items-center gap-2.5">
+            <LatteLogo size={24} />
+            <span className="text-slate-200 font-semibold">Latte Family Protocol</span>
             <span>•</span>
             <span>Automated Web3 Startup Bonding Curve Engine</span>
           </div>
