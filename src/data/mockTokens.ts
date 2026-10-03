@@ -7,7 +7,7 @@ export const INITIAL_TOKENS: TokenMetadata[] = [
     symbol: 'LATTE',
     description: 'The native governance and utility fuel token for the Latte Family launchpad ecosystem, powering fair bonding curves and community startup accelerators on BNB Chain.',
     logoUrl: '/favicon.svg',
-    website: 'https://flap.sh/bnb/0xbfca1fea64764920e49b4454187670b3cfd77777?lang=en',
+    website: 'https://flap.sh',
     twitter: 'https://x.com/Lattedotfamily',
     telegram: 'https://t.me/Lattedotfamily',
     chainId: 56,

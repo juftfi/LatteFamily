@@ -277,7 +277,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Buy $Latte Button */}
           <a
-            href="https://flap.sh/bnb/0xbfca1fea64764920e49b4454187670b3cfd77777?lang=en"
+            href="https://flap.sh"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/50 hover:border-amber-400 text-amber-300 hover:text-white font-mono font-bold text-xs shadow-sm hover:shadow-amber-500/20 transition-all cursor-pointer group"
