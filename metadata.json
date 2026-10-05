@@ -1,6 +1,6 @@
 {
   "name": "LatteFamily - Web3 Startup Token Launchpad",
-  "description": "Next-generation decentralized token launchpad inspired by Flap.sh. Create, deploy, and manage startup tokens with automated bonding curves and multi-chain contract deployment.",
+  "description": "Next-generation decentralized token launchpad inspired by brew.family. Create, deploy, and manage startup tokens with automated bonding curves and multi-chain contract deployment.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

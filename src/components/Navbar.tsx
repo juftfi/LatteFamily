@@ -277,11 +277,11 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Buy $Latte Button */}
           <a
-            href="https://flap.sh"
+            href="https://brew.family"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/50 hover:border-amber-400 text-amber-300 hover:text-white font-mono font-bold text-xs shadow-sm hover:shadow-amber-500/20 transition-all cursor-pointer group"
-            title="Buy $Latte on Flap.sh"
+            title="Buy $Latte on Brew.family"
           >
             <Coffee className="w-3.5 h-3.5 text-amber-400 group-hover:scale-110 transition-transform" />
             <span>Buy $Latte</span>
