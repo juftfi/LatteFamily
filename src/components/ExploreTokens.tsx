@@ -117,7 +117,7 @@ export const ExploreTokens: React.FC<ExploreTokensProps> = ({
             </a>
 
             <a
-              href="https://brew.family"
+              href="https://brew.family/token/?address=0x4cbe6805f0e8f2fdcc79d477e5902435dc9d6666"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/60 hover:border-amber-400 text-amber-300 hover:text-white text-xs sm:text-sm font-bold font-mono transition-all cursor-pointer shadow-md shadow-amber-500/10 group"
